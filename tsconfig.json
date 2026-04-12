@@ -19,7 +19,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/svg/*": ["./src/shared/assets/svg/*"]
     }
   },
   "include": [

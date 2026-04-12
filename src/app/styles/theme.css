@@ -1,0 +1,14 @@
+:root {
+  --white: #fff;
+  --bg-color: #fafafa;
+  --middle-black: #121212;
+  --dark-black: #000;
+  --gray-middle: #e3e3e3;
+  --gray-footer: #eaeaea;
+  --gray-neutral: #bababa24;
+  --light-yellow: #f89a3b;
+  --dark-yellow: #e6892e;
+  --blue: #1d97e5;
+
+  --font-inter: 'Inter', sans-serif;
+}

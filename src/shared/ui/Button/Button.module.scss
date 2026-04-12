@@ -1,0 +1,40 @@
+.button {
+  height: 50px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 14px;
+  white-space: nowrap;
+
+  &.primary {
+    background: var(--light-yellow);
+    color: var(--white);
+
+    &:hover {
+      background: var(--dark-yellow);
+    }
+  }
+
+  &.m {
+    font-size: 16px;
+  }
+
+  &.semibold {
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 768px) {
+  .button {
+    height: 44px;
+    max-width: 192px;
+    width: 100%;
+    padding: 0 30px;
+
+    &.m {
+      font-size: 14px;
+    }
+  }
+}

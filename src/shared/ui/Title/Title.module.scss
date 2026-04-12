@@ -1,0 +1,51 @@
+.l {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.x {
+  font-size: 60px;
+  line-height: 73px;
+}
+
+.primary {
+  color: var(--white);
+}
+
+.secondary {
+  color: var(--dark-black);
+}
+
+.regulary {
+  font-weight: 400;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+@media (max-width: 896px) {
+  .x {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .l {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .x {
+    font-size: 23px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 354px) {
+  .x {
+    font-size: 21px;
+    line-height: 26px;
+  }
+}
