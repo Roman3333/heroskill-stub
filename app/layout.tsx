@@ -4,7 +4,7 @@ import { Footer } from '@/widgets/Footer';
 import { inter } from '@/shared/assets/fonts/fonts';
 import '@/app/styles/globals.scss';
 
-const title = 'HeroSkill';
+const title = 'Сервис образования - HeroSkill';
 const description = 'Онлайн-образование нового поколения';
 
 export const metadata: Metadata = {
