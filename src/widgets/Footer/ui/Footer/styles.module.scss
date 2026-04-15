@@ -1,6 +1,5 @@
 .footer {
   margin-top: auto;
-  padding-bottom: 30px;
 }
 
 .line {
@@ -34,6 +33,10 @@
 }
 
 @media (max-width: 768px) {
+  .footer {
+    padding-bottom: 30px;
+  }
+
   .wrapper {
     flex-direction: column;
     align-items: start;
