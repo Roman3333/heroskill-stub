@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /
 
-Sitemap: https://heroskill-stub.netlify.app/sitemap.xml
+Sitemap: https://heroskill.ru/sitemap.xml

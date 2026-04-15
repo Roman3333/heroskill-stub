@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title,
     description,
-    url: 'https://heroskill-stub.netlify.app/',
+    url: 'https://heroskill.ru/',
   },
 };
 

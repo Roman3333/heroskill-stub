@@ -29,6 +29,7 @@ body {
 
 main {
   margin-top: 107px;
+  min-height: calc(100vh - 329px);
 }
 
 #__next {
@@ -106,6 +107,7 @@ ul {
   }
 
   main {
+    min-height: calc(100vh - 274px);
     margin-top: 68px;
   }
 }

@@ -82,7 +82,7 @@ export const Top = () => {
 
           <Image
             fill
-            src="/img/pc-bg.webp"
+            src="/img/pc-bg.jpg"
             alt="Background image"
             unoptimized
             fetchPriority="high"
@@ -92,7 +92,7 @@ export const Top = () => {
 
           <Image
             fill
-            src="/img/mobile-bg.webp"
+            src="/img/mobile-bg.jpg"
             alt="Background image"
             unoptimized
             fetchPriority="high"

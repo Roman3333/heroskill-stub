@@ -76,8 +76,17 @@
 .itemsMobile {
   display: none;
 }
+@media (max-width: 1328px) {
+  .section > div {
+    padding: 0;
+  }
+}
 
 @media (max-width: 768px) {
+  .section {
+    padding: 0;
+  }
+
   .lineMobile,
   .imgMobile,
   .itemsMobile {
@@ -124,6 +133,12 @@
   .bottomItems {
     display: flex;
     justify-content: center;
-    gap: 34px;
+    gap: 68px;
+  }
+
+  .wrapper {
+    height: calc(100vh - 68px);
+    display: flex;
+    align-items: center;
   }
 }
