@@ -8,6 +8,7 @@
   width: 100%;
   height: 660px;
   padding-top: 80px;
+  background: var(--blue);
 }
 
 .content {
@@ -101,8 +102,22 @@
   }
 
   .wrapper {
-    height: 570px;
+    height: auto;
     padding: 149px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 24px;
+      background: var(--dark-blue);
+      z-index: 2;
+    }
   }
 
   .suptitle {
@@ -134,11 +149,5 @@
     display: flex;
     justify-content: center;
     gap: 68px;
-  }
-
-  .wrapper {
-    height: calc(100vh - 68px);
-    display: flex;
-    align-items: center;
   }
 }

@@ -17,7 +17,7 @@ export const Bottom = () => {
             </div>
 
             <Image
-              src="/img/image-2.png"
+              src="/img/man-1.webp"
               width={654}
               height={365}
               unoptimized
